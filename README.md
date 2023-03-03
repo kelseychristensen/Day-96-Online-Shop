@@ -14,7 +14,7 @@ Responsive online store with cart preview and checkout session and user authenti
 #### Homepage with Active States
 ![Homepage](/readme-stuff/homepage.gif "homepage")
 #### Viewing Item Details // Item Page
-![Clicking_item](/readme-stuff/Clicking_item.gif "Clicking_item")
+![Clicking_item](/readme-stuff/clicking_item.gif "Clicking_item")
 #### Adding Item to Cart 
 ![add_to_cart](/readme-stuff/add_to_cart.gif "add_to_cart")
 #### Cart Preview // Removing Items from Cart 
