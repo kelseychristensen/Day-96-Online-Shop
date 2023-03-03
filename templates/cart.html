@@ -1,0 +1,41 @@
+{% include "header.html" %}
+{% block content %}
+
+<div class="cart-prev-container">
+
+{% for item in cart_to_show %}
+    <div class="row" id="cart_preview_row">
+
+        <div class="col-2">
+            <img src={{ item.images[0] }} alt="product image">
+        </div>
+
+        <div class="col-10" id="details_col">
+            <h1>{{ item.name }} </h1>
+
+            <h5>${{ prices[products.index(item)] }}</h5>
+            <div class="bottom-cart-item">
+            <p>QTY: {{ qtys[products.index(item)] }}<br>
+            <a href="{{ url_for('remove_from_cart', item_id = cart_to_show.index(item) )}}"><i class="fa-solid fa-trash"></i> Remove Item </a></p>
+            </div>
+
+        </div>
+
+    </div>
+
+{% endfor %}
+
+        {% if cart == 0 %}
+    <div class="no-items">
+        <h1>Add some items to your cart!</h1>
+            <a href="{{ url_for('home') }}"><button type="button" class="btn btn-dark">Back to store.</button></a>
+        {% else %}
+        </div>
+
+        <a href="{{ url_for('create_checkout_session') }}"><div class="d-grid gap-2 d-md-flex justify-content-md-end"><button type="button" class="btn btn-dark">Checkout</button></div></a>
+
+</div>
+
+{% endif %}
+{% include "footer.html" %}
+{% endblock %}

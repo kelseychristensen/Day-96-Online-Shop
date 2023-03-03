@@ -1,0 +1,25 @@
+{% include "header.html" %}
+{% block content %}
+
+<div class="product-show">
+<h3> {{ item.name }} </h3>
+    <div class="row">
+
+
+        <div class="col-lg-6">
+
+        <img class="product-page-image" src="{{ item.images[0] }}"></a>
+        </div>
+
+        <div class="col-lg-6" id="descrip_col">
+            <p class="description">  {{ item.description }} </p>
+            <h4 class="price">${{ prices[products.index(item)] }}</h4>
+            <a href="{{ url_for('add_to_cart', item_id = products.index(item) )}}"><button type="button" class="btn btn-dark">Add to cart.</button></a>
+        </div>
+
+    </div>
+
+</div>
+</div>
+{% include "footer.html" %}
+{% endblock %}
