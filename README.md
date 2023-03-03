@@ -16,21 +16,21 @@ Responsive online store with cart preview and checkout session and user authenti
 #### Viewing Item Details // Item Page
 ![Clicking_item](/readme-stuff/clicking_item.gif "Clicking_item")
 #### Adding Item to Cart 
-![add_to_cart](/readme-stuff/add_to_cart.gif "add_to_cart")
+![add_to_cart](/readme-stuff/add.gif "add")
 #### Cart Preview // Removing Items from Cart 
 ![preview](/readme-stuff/remove_an_item.gif "preview")
 #### Stripe Checkout Session
-![Stripe](/readme-stuff/session.png "strip")
+![Stripe](readme-stuff/session.PNG "strip")
 #### Login Page
-![login](/readme-stuff/login.png "login")
+![login](/readme-stuff/login.PNG "login")
 #### Registration Page
-![reg](/readme-stuff/register.png "reg")
+![reg](/readme-stuff/register.PNG "reg")
 #### Visiting Cart When Empty 
-![reg](/readme-stuff/empty_cart.png "reg")
+![reg](/readme-stuff/empty_cart.PNG "reg")
 #### Success
-![success](/readme-stuff/success.png "success")
+![success](/readme-stuff/success.PNG "success")
 #### Cancel
-![cancel](/readme-stuff/cancel.png "cancel")
+![cancel](/readme-stuff/cancel.PNG "cancel")
 
 ### Built with
 
