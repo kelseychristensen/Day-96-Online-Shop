@@ -191,6 +191,7 @@ def cancel():
 
 @app.route('/success')
 def success():
+    cart = []
     return render_template("success.html", cart=len(cart))
 
 
